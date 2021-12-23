@@ -2,6 +2,7 @@
   --heading-font: "Lora", serif;
   --default-font: "Nunito", sans-serif;
   --primary-color: #74b49b;
+  --footer-color: rgba(116, 180, 155, 0.5);
 }
 
 body {
@@ -11,14 +12,32 @@ body {
 h1 {
   font-family: var(--heading-font);
 }
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
 
 p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.hero p {
   font-size: 24px;
 }
 
 .hero {
   text-align: center;
-  padding: 65px 20px;
+  padding: 60px 20px;
 }
 
 .hero h1 {
@@ -26,7 +45,7 @@ p {
 }
 
 .hero h2 {
-  font-size: 36px;
+  font-weight: normal;
 }
 
 .button-branding {
@@ -47,9 +66,75 @@ p {
 
 .nav-link {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .nav-logo {
-  height: 40px;
+  height: 50px;
+}
+
+.about-me-text {
+  padding: 50px 20px;
+}
+
+.home-portfolio-img {
+  padding: 15px 15px;
+}
+
+.work-inquiry {
+  padding-top: 100px;
+  padding-bottom: 65px;
+  padding-left: 265px;
+}
+
+.work-inquiry h2 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.portfolio-home,
+.about-me {
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: var(--footer-color);
+  padding: 17px 30px;
+}
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    display: none;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .about-me-text {
+    padding: none;
+    text-align: center;
+  }
+
+  .work-inquiry {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .portfolio-home,
+  .about-me {
+    padding-top: 40px;
+  }
+
+  .work-inquiry h2 {
+    font-size: 36px;
+  }
 }
