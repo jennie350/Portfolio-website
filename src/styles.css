@@ -1,6 +1,51 @@
-h1 {
-  font-family: "Lora", serif;
+:root {
+  --heading-font: "Lora", serif;
+  --default-font: "Nunito", sans-serif;
+  --primary-color: #74b49b;
 }
-h2 {
-  font-family: "Nunito", sans-serif;
+
+body {
+  font-family: var(--default-font);
+}
+
+h1 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-size: 24px;
+}
+
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+}
+
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.button-branding {
+  background: #74b49b;
+  text-decoration: none;
+  color: white;
+  padding: 18px 62px;
+  border-radius: 4px;
+}
+
+.button-branding:hover {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: underline;
+  padding: 18px 62px;
+  border-radius: 4px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 16px;
 }
