@@ -49,3 +49,7 @@ p {
   font-weight: bold;
   font-size: 16px;
 }
+
+.nav-logo {
+  height: 40px;
+}
