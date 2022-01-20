@@ -22,6 +22,12 @@ h3 {
   font-weight: bold;
 }
 
+h4 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 p {
   font-size: 18px;
   line-height: 30px;
@@ -48,11 +54,12 @@ img {
   font-weight: normal;
 }
 
-.hero-services {
+.hero-services h1 {
   font-size: 80px;
-  padding: 60px 20px;
+  padding: 10px 0 75px;
   text-align: center;
 }
+
 .button-branding {
   background: #74b49b;
   text-decoration: none;
@@ -104,6 +111,10 @@ img {
 .portfolio-home,
 .about-me {
   padding-top: 100px;
+}
+
+.social-media-icons {
+  color: #272142;
 }
 
 .footer {
