@@ -31,7 +31,7 @@ img {
   border-radius: 10px;
 }
 
-.hero p {
+.hero p .hero-services p {
   font-size: 24px;
 }
 
@@ -48,6 +48,11 @@ img {
   font-weight: normal;
 }
 
+.hero-services {
+  font-size: 80px;
+  padding: 60px 20px;
+  text-align: center;
+}
 .button-branding {
   background: #74b49b;
   text-decoration: none;
@@ -74,6 +79,10 @@ img {
 }
 
 .about-me-text {
+  padding: 50px 20px;
+}
+
+.my-promise-content {
   padding: 50px 20px;
 }
 
