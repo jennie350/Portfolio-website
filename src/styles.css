@@ -46,7 +46,7 @@ img {
   height: 50px;
 }
 
-.hero p .hero-services p {
+.hero p .hero-content-page p {
   font-size: 24px;
 }
 
@@ -63,16 +63,14 @@ img {
   font-weight: normal;
 }
 
-.hero-services h1 {
+.hero-content-page h1 {
   font-size: 80px;
   padding: 10px 0 75px;
   text-align: center;
 }
 
-.portfolio-title {
-  font-family: var(--default-font);
-  color: var(--primary-color);
-  font-weight: bold;
+.three-col-content {
+  padding-top: 100px;
 }
 
 .button-branding {
@@ -99,6 +97,12 @@ img {
   padding-top: 100px;
 }
 
+.portfolio-title {
+  font-family: var(--default-font);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 .home-portfolio-img {
   padding: 15px 15px;
 }
@@ -112,11 +116,6 @@ img {
 .work-inquiry h2 {
   font-weight: bold;
   font-size: 48px;
-}
-
-.portfolio-home,
-.about-me {
-  padding-top: 100px;
 }
 
 .social-media-icons {
