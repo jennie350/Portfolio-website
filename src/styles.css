@@ -37,6 +37,15 @@ img {
   border-radius: 10px;
 }
 
+.nav-link {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
 .hero p .hero-services p {
   font-size: 24px;
 }
@@ -60,6 +69,12 @@ img {
   text-align: center;
 }
 
+.portfolio-title {
+  font-family: var(--default-font);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 .button-branding {
   background: #74b49b;
   text-decoration: none;
@@ -76,21 +91,12 @@ img {
   border-radius: 4px;
 }
 
-.nav-link {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.nav-logo {
-  height: 50px;
-}
-
-.about-me-text {
+.content {
   padding: 50px 20px;
 }
 
-.my-promise-content {
-  padding: 50px 20px;
+.portfolio-content {
+  padding-top: 100px;
 }
 
 .home-portfolio-img {
