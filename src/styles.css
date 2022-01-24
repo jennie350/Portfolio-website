@@ -118,18 +118,22 @@ img {
   font-size: 48px;
 }
 
-.social-media-icons {
+.social-media-icons a {
   color: #272142;
+  padding: 0 5px;
 }
 
 .footer {
   background-color: var(--footer-color);
   padding: 17px 30px;
+  font-size: 15px;
 }
 
 @media (max-width: 800px) {
   h2 {
     font-size: 28px;
+    margin: none;
+    padding-top: 10px;
   }
 
   h3 {
@@ -154,12 +158,19 @@ img {
     text-align: center;
   }
 
-  .portfolio-home,
-  .about-me {
-    padding-top: 40px;
-  }
-
   .work-inquiry h2 {
     font-size: 36px;
+  }
+
+  .three-col-content {
+    padding-top: 20px;
+  }
+
+  .content {
+    padding: 10px 20px 10px;
+  }
+
+  .footer {
+    font-size: 10px;
   }
 }
