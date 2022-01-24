@@ -129,6 +129,10 @@ img {
   font-size: 15px;
 }
 
+.footer a {
+  color: #272142;
+}
+
 @media (max-width: 800px) {
   h2 {
     font-size: 28px;
@@ -146,6 +150,14 @@ img {
 
   .hero h1 {
     font-size: 48px;
+  }
+
+  .hero-content-page {
+    padding: none;
+  }
+
+  .hero-content-page h1 {
+    font-size: 60px;
   }
 
   .about-me-text {
@@ -171,6 +183,18 @@ img {
   }
 
   .footer {
-    font-size: 10px;
+    font-size: 12px;
+  }
+
+  .portfolio-content {
+    padding-top: 50px;
+  }
+
+  .portfolio-content img {
+    display: none;
+  }
+
+  .contact-us-img {
+    display: none;
   }
 }
